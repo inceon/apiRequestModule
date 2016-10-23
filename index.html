@@ -1,0 +1,16 @@
+<!DOCTYPE doctype html>
+<html ng-app="main">
+    <head>
+        <script src="angular.min.js"></script>
+        <script src="module/api.module.js"></script>
+        <script src="module/api.url.module.js"></script>
+        <script src="module/user.module.js"></script>
+        <script src="main.js">
+        </script>
+    </head>
+    <body ng-controller="Test as vm">
+        <div>
+          <pre>{{vm.info | json}}</pre>
+        </div>
+    </body>
+</html>
